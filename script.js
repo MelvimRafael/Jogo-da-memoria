@@ -67,4 +67,5 @@ function resetBoard() {
 //adiciona evento de clique na carta
 cards.forEach((card) => {
     card.addEventListener('click', flipCard)
+    
 });
